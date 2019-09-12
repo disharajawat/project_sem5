@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/verbel"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Verbal" />
+
+    <item
+        android:id="@+id/quant"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="QA" />
+
+    <item
+        android:id="@+id/di"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="DI/LR" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Settings" />
+
+</menu>

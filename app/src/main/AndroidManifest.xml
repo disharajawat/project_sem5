@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.disha.testfunda">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".d_skAns"></activity>
+        <activity android:name=".d_wrngAns" />
+        <activity android:name=".d_corrAns" />
+        <activity android:name=".d_set1" />
+        <activity android:name=".q_skAns" />
+        <activity android:name=".q_wrngAns" />
+        <activity android:name=".q_corrAns" />
+        <activity android:name=".q_set1" />
+        <activity android:name=".V1_skippedAns" />
+        <activity android:name=".V1_wrngAns" />
+        <activity android:name=".V1_ans" />
+        <activity android:name=".graph" />
+        <activity android:name=".v_set1" />
+        <activity android:name=".v_score1" />
+        <activity android:name=".verbal_1" />
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
